@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# AWS credentials
+.aws/
+*.pem
+
+# Airflow
+airflow/logs/
+airflow/__pycache__/
+# Airflow
+airflow/logs/
+airflow/__pycache__/
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/airflow-scheduler.pid
+airflow/webserver_config.py
+
+# Spark
+.sparkStaging/
+metastore_db/
+derby.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/settings.json
+
+# Local data
+data/raw/
+data/processed/
+
+# Temporary files
+*.tmp
+*.log
